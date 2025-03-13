@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="AgroTherapy - Terapias rurais para desenvolvimento infantil através do contato com a natureza"
+    />
+    <meta
+      name="keywords"
+      content="AgroTherapy, Terapias Rurais, Desenvolvimento Infantil, Contato com a Natureza"
+    />
+    <meta name="author" content="AgroTherapy Team" />
+    <title>AgroTherapy - Terapias Rurais para Desenvolvimento Infantil</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#main-content" class="visually-hidden-focusable"
+      >Pular para o conteúdo principal</a
+    >
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top"
+      role="navigation"
+      aria-label="Menu principal"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="/"
+          aria-label="Página inicial AgroTherapy"
+        >
+          <img
+            src="assets/images/logo_head.svg"
+            alt="Logo AgroTherapy"
+            width="150"
+            height="50"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Alternar menu de navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active px-3"
+                aria-current="page"
+                href="index.html"
+                >Início</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="about.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="contact-us.html">Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-3 bg-success bg-gradient rounded text-white ms-2"
+                href="get-in.html"
+                >Faça Parte</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      id="main-content"
+      class="hero position-relative section-height mb-4"
+      role="main"
+    >
+      <img
+        class="w-100 h-100 position-absolute object-fit-cover"
+        src="assets/images/background_animals.svg"
+        alt="Fundo decorativo com ilustrações de animais da fazenda"
+        aria-hidden="true"
+      />
+
+      <div
+        class="position-absolute w-100 h-100 bg-dark opacity-50"
+        aria-hidden="true"
+      ></div>
+
+      <div class="container h-100">
+        <div class="row h-100 align-items-center position-relative">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0 text-white">
+            <p class="text-uppercase mb-4 letter-spacing">
+              Transformamos vidas
+            </p>
+            <h1 class="display-4">
+              Experiência única de desenvolvimento através do contato com a
+              natureza
+            </h1>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/i5i-LWNEa5s?controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+                title="Vídeo sobre terapias rurais para desenvolvimento infantil"
+                allowfullscreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="testimonials-container" class="mb-5"></div>
+
+    <section
+      class="container mb-5"
+      aria-labelledby="properties-title"
+      role="region"
+    >
+      <h2 id="properties-title" class="text-center m-5">
+        Propriedades Rurais em Destaque
+      </h2>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#sitioFelizModal"
+            class="text-decoration-none"
+            aria-label="Saiba mais sobre o Sítio Feliz"
+          >
+            <div class="card h-100">
+              <img
+                src="assets/images/sitio-feliz.svg"
+                class="card-img-top"
+                alt="Foto do Sítio Feliz mostrando área externa com animais"
+              />
+              <div class="card-body">
+                <h3 class="card-title h5">Sítio Feliz</h3>
+                <p class="card-subtitle text-muted">Fazendinha</p>
+                <p class="card-text">
+                  Um espaço lúdico e acolhedor onde crianças para descobrir o
+                  mundo rural e os animais da fazenda.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100">
+            <div class="position-relative">
+              <img
+                src="assets/images/rancho-azul.svg"
+                class="card-img-top"
+                alt="Foto do Rancho Azul mostrando área de equoterapia"
+              />
+              <div
+                class="position-absolute top-50 start-50 translate-middle bg-warning text-dark px-3 py-2 rounded-pill"
+                role="status"
+                aria-label="Status: Em breve"
+              >
+                Em Breve
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title h5">Rancho Azul</h3>
+              <p class="card-subtitle text-muted">Equoterapia</p>
+              <p class="card-text">
+                Especializado em terapias com cavalos, aqui crianças desenvolvem
+                coordenação e autoconfiança.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100">
+            <div class="position-relative">
+              <img
+                src="assets/images/recanto-rural.svg"
+                class="card-img-top"
+                alt="Foto do Recanto Rural mostrando horta e jardim sensorial"
+              />
+              <div
+                class="position-absolute top-50 start-50 translate-middle bg-warning text-dark px-3 py-2 rounded-pill"
+                role="status"
+                aria-label="Status: Em breve"
+              >
+                Em Breve
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title h5">Recanto Rural</h3>
+              <p class="card-subtitle text-muted">Plantação</p>
+              <p class="card-text">
+                Aqui você vai encontrar cultivo de hortas e jardins sensoriais,
+                desenvolvendo várias habilidades.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100">
+            <div class="position-relative">
+              <img
+                src="assets/images/fazenda-do-lago.svg"
+                class="card-img-top"
+                alt="Foto da Fazenda do Lago mostrando área de hidroterapia"
+              />
+              <div
+                class="position-absolute top-50 start-50 translate-middle bg-warning text-dark px-3 py-2 rounded-pill"
+                role="status"
+                aria-label="Status: Em breve"
+              >
+                Em Breve
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title h5">Fazenda do Lago</h3>
+              <p class="card-subtitle text-muted">Hidroterapia</p>
+              <p class="card-text">
+                Terapias aquáticas com a vida rural, permitindo que as crianças
+                se desenvolva no nosso lago.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal fade"
+      id="sitioFelizModal"
+      tabindex="-1"
+      aria-labelledby="sitioFelizModalLabel"
+      aria-hidden="true"
+      role="dialog"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-success bg-gradient text-white">
+            <h2 class="modal-title h5" id="sitioFelizModalLabel">
+              Sítio Feliz - Agende sua Visita
+            </h2>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Fechar modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div
+              id="sitioFelizCarousel"
+              class="carousel slide mb-4"
+              data-bs-ride="carousel"
+              role="region"
+              aria-roledescription="carrossel"
+              aria-label="Fotos do Sítio Feliz"
+            >
+              <div class="carousel-indicators" role="tablist">
+                <button
+                  type="button"
+                  data-bs-target="#sitioFelizCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                  role="tab"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#sitioFelizCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  role="tab"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#sitioFelizCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  role="tab"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" role="tabpanel">
+                  <img
+                    src="assets/images/sitio-feliz.svg"
+                    class="d-block w-100"
+                    alt="Vista principal do Sítio Feliz com área de fazendinha"
+                    style="object-fit: cover; height: 400px"
+                  />
+                </div>
+                <div class="carousel-item" role="tabpanel">
+                  <img
+                    src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1173&q=80"
+                    class="d-block w-100"
+                    alt="Área de interação com animais do Sítio Feliz"
+                    style="object-fit: cover; height: 400px"
+                  />
+                </div>
+                <div class="carousel-item" role="tabpanel">
+                  <img
+                    src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+                    class="d-block w-100"
+                    alt="Área de recreação ao ar livre do Sítio Feliz"
+                    style="object-fit: cover; height: 400px"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#sitioFelizCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#sitioFelizCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-md-6">
+                <h3 class="text-success fw-bold h6">Sobre o Sítio</h3>
+                <p>
+                  O Sítio Feliz é um espaço especialmente projetado para
+                  proporcionar experiências únicas de aprendizado e
+                  desenvolvimento através do contato com animais e a vida rural.
+                </p>
+
+                <h4 class="text-success fw-bold h6 mt-3">
+                  Atividades Disponíveis
+                </h4>
+                <ul>
+                  <li>Alimentação dos animais</li>
+                  <li>Colheita de ovos</li>
+                  <li>Horta sensorial</li>
+                  <li>Passeio de charrete</li>
+                  <li>Ordenha didática</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h3 class="text-success fw-bold h6">Informações Práticas</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Localização:</strong> Estrada Rural, km 5 - Interior
+                  </li>
+                  <li><strong>Horário:</strong> 8h às 17h (Ter-Dom)</li>
+                  <li><strong>Duração da visita:</strong> 2-3 horas</li>
+                  <li><strong>Valor:</strong> R$ 80 por criança</li>
+                </ul>
+
+                <h4 class="text-success fw-bold h6 mt-3">Estrutura</h4>
+                <ul>
+                  <li>Estacionamento</li>
+                  <li>Área coberta</li>
+                  <li>Banheiros adaptados</li>
+                  <li>Lanchonete</li>
+                </ul>
+              </div>
+            </div>
+
+            <form id="agendamentoForm" class="needs-validation" novalidate>
+              <h3 class="text-success fw-bold h6 mb-3">Agende sua Visita</h3>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nomeVisita" class="form-label"
+                    >Nome Completo</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nomeVisita"
+                    required
+                    aria-describedby="nomeVisitaFeedback"
+                  />
+                  <div id="nomeVisitaFeedback" class="invalid-feedback">
+                    Por favor, insira seu nome completo.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="emailVisita" class="form-label">E-mail</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="emailVisita"
+                    required
+                    aria-describedby="emailVisitaFeedback"
+                  />
+                  <div id="emailVisitaFeedback" class="invalid-feedback">
+                    Por favor, insira um email válido.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="dataVisita" class="form-label"
+                    >Data da Visita</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="dataVisita"
+                    required
+                    aria-describedby="dataVisitaFeedback"
+                  />
+                  <div id="dataVisitaFeedback" class="invalid-feedback">
+                    Por favor, selecione uma data.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="numeroVisitantes" class="form-label"
+                    >Número de Visitantes</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="numeroVisitantes"
+                    min="1"
+                    required
+                    aria-describedby="numeroVisitantesFeedback"
+                  />
+                  <div id="numeroVisitantesFeedback" class="invalid-feedback">
+                    Por favor, informe o número de visitantes.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="observacoes" class="form-label"
+                    >Observações</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="observacoes"
+                    rows="3"
+                    aria-describedby="observacoesHelp"
+                  ></textarea>
+                  <div id="observacoesHelp" class="form-text">
+                    Opcional: Informe necessidades especiais ou restrições
+                    alimentares.
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+            <button
+              type="submit"
+              form="agendamentoForm"
+              class="btn btn-success"
+            >
+              Agendar Visita
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-success bg-gradient" role="contentinfo">
+      <div class="footer-container">
+        <div class="text-center">
+          <img
+            class="footer-logo"
+            src="assets/images/logo.svg"
+            alt="Logo AgroTherapy"
+            width="200"
+            height="60"
+          />
+          <p class="footer-text text-white">
+            Cultivando um futuro mais inclusivo
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+      <div
+        id="disponibilidadeToast"
+        class="toast align-items-center bg-warning border-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body text-dark">
+            Esta propriedade estará disponível em breve!
+          </div>
+          <button
+            type="button"
+            class="btn-close me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/toast.js"></script>
+    <script src="assets/js/agendamento.js"></script>
+
+    <script type="text/babel" src="assets/js/depoimentos.js"></script>
+  </body>
+</html>
